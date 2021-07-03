@@ -1,0 +1,13 @@
+{
+    "extends": ["airbnb-base", "plugin:prettier/recommended"],
+    "plugins": ["mocha"],
+    "env": {
+        "es6": true,
+        "mocha": true,
+        "node": true
+    },
+    "globals": {
+        "chai": true,
+        "expect": true
+    }
+}
